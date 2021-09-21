@@ -324,6 +324,7 @@ def create_stac_item(
                 href=asset_href or dataset.name,
                 media_type=media_type,
                 extra_fields=raster_info,
+                roles=asset_roles,
             ),
         )
 
